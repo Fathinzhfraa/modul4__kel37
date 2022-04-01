@@ -24,3 +24,29 @@ public class kereta2 {
                     ;
                 } else {
                     System.out.println("Anda memilih kelas Eksekutif");
+System.out.println(objek.dataHarga(2, 0));
+                }
+                break;
+            case "ACEH":
+                System.out.print("pilih tingkat :");
+                tingkat = sc.nextInt();
+                if (tingkat == 1) {
+                    System.out.println("Anda memilih kelas bisnis");
+                    System.out.println(objek.dataHarga(0, 1));
+
+                } else if (tingkat == 2) {
+                    System.out.println("Anda memilih kelas Ekonomi");
+                    System.out.println(objek.dataHarga(1, 1));
+                    ;
+                } else {
+                    System.out.println("Anda memilih kelas Eksekutif");
+                    System.out.println(objek.dataHarga(2, 1));
+                    ;
+                }
+                break;
+            case "BALI":
+                System.out.print("pilih tingkat :");
+                tingkat = sc.nextInt();
+                if (tingkat == 1) {
+                    System.out.println("Anda memilih kelas bisnis");
+                    System.out.println(objek.dataHarga(0, 2));
