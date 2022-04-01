@@ -24,7 +24,7 @@ public class kereta2 {
                     ;
                 } else {
                     System.out.println("Anda memilih kelas Eksekutif");
-System.out.println(objek.dataHarga(2, 0));
+                    System.out.println(objek.dataHarga(2, 0));
                 }
                 break;
             case "ACEH":
