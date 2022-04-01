@@ -50,3 +50,30 @@ public class kereta2 {
                 if (tingkat == 1) {
                     System.out.println("Anda memilih kelas bisnis");
                     System.out.println(objek.dataHarga(0, 2));
+                } else if (tingkat == 2) {
+                    System.out.println("Anda memilih kelas Ekonomi");
+                    System.out.println(objek.dataHarga(1, 2));
+                } else {
+                    System.out.println("Anda memilih kelas Eksekutif");
+                    System.out.println(objek.dataHarga(2, 2));
+                }
+                break;
+            case "SURABAYA":
+                System.out.print("pilih tingkat :");
+                tingkat = sc.nextInt();
+                if (tingkat == 1) {
+                    System.out.println("Anda memilih kelas bisnis");
+                    System.out.println(objek.dataHarga(0, 3));
+                } else if (tingkat == 2) {
+                    System.out.println("Anda memilih kelas Ekonomi");
+                    System.out.println(objek.dataHarga(1, 3));
+                } else {
+                    System.out.println("Anda memilih kelas Eksekutif");
+                    System.out.println(objek.dataHarga(2, 3));
+                }
+                break;
+            default:
+
+        }
+    }
+}
